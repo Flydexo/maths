@@ -14,4 +14,4 @@ This repo's goal is to register all my work to learn maths at a sufficient level
 ## High school 3rd Year
 * [Digital sequence](hg-3/digital-sequence)
     * [Warm up](hg-3/digital-sequence/warm-up.md)
-    * [Exercices](hg-3/digital-sequence/exercices.md)
+    * [Exercices](hg-3/digital-sequence/exercises.md)
