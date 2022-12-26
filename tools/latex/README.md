@@ -1,2 +1,1 @@
-# LaTex
-
+# LaTeX
