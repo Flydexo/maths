@@ -83,7 +83,7 @@ Because $q\ne1$, we have $S=\Large\frac{1-q^{n+1}}{1-q}$
 > - The sequence $(u_n)$ is **constant** from rank $k$ if, for all integer $n\ge k,u_{n+1}=u_n$.
 
 ### Note
-* As with function if we replace $\ge, \le$ with $<, >$ we talk about **srictly increasing**, **strictly decreasing**, **strictly monotone** and **strictly constant**.
+* As with function if we replace $\ge, \le$ with $<, >$ we talk about **srictly increasing**, **strictly decreasing**, and **strictly monotone**.
 
 ## Propery: Study of the sign of $u_{n+1} - u_n$
 > Let $(u_n) a sequence:$
@@ -94,3 +94,44 @@ Because $q\ne1$, we have $S=\Large\frac{1-q^{n+1}}{1-q}$
 The sequence $(u_n), u_0=5,\forall n \in \N,u_{n+1}=u_n+n^2+1$ is strictly increasing because $u_{n+1}-u_n=n^2+1$ and $n^2+1 > 0$.
 
 ## Property: Comparison between $\Large\frac{u_{b+1}}{u_n}$ and $1$
+> Let $(u_n)$ a sequence of which all terms are strictly positives
+> - If $\Large\frac{u_{n+1}}{u_n}\small>1$, so ${u_{n+1}} > u_{n'}$, sequence strictly increasing
+> - If $\Large\frac{u_{n+1}}{u_n}\small<1$, so ${u_{n+1}} < u_{n'}$, sequence strictly decreasing
+
+## Property: Direction of variation of an arithmetic sequence
+> Let $(u_n)$ be an arithmetic sequence of common difference $r$.
+> - If $r > 0$, so the sequence is strictly increasing
+> - If $r < 0$, so the sequence is strictly decreasing
+> - If $r = 0$, so the sequence is constant
+
+## Property: Direction of variation of a geometric sequence
+> Let $(u_n)$ be a geometric sequence of common ratio $q$ and of first term $u_0 \ne 0$.
+> - If $q > 1$:
+>   - if $u_0>0$, so the sequence is strictly increasing
+>   - if $u_0<0$, so the sequence is strictly decreasing
+> - If $0 < q < 1$:
+>   - if $u_0>0$, so the sequence is strictly decreasing
+>   - if $u_0<0$, so the sequence is strictly increasinbg
+> - If $q =0$ or $q=1$, the sequence is constant
+> - If $q<0$, the sequence isn't monotone
+
+# Limit of a sequence
+## Definition: Sequence having a real as limit
+> A sequence $(u_n)$ has for limit a real $l$ when $n$ tends to $+\infty$, if the terms $u_n$ become as close to $l$ as we want by taking $n$ sufficiently big. We can say that $(u_n)$ converges to $l$ and we note it:
+
+$$\lim_{n\to+\infty}u_n=l$$
+
+## Definition: Sequence having $+\infty$ as limit
+> A sequence $(u_n)$ has for limit $+\infty$ when $n$ tends to $+\infty$, if the $u_n$ terms become as big as we want by taking a $n$ sufficiently big.
+> We can say that $(u_n)$ diverges and we note it:
+$$\lim_{n\to+\infty}u_n=+\infty$$
+
+## Definition: Sequence having $-\infty$ as limit
+> A sequence $(u_n)$ has for limit $-\infty$ when $n$ tends to $+\infty$, if the $u_n$ terms become as small as we want by taking a $n$ sufficiently big.
+> We can say that $(u_n)$ diverges and we note it:
+$$\lim_{n\to+\infty}u_n=-\infty$$
+
+### Note
+Some sequences do not have limits. In this case they diverge.
+Let the sequence $(u_n)$ defined by $u_n=(-1)^n$
+![graph representation for $(u_n)$ defined by $u_n=(-1)^n$](assets/screenshot1.png)
