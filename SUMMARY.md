@@ -1,7 +1,8 @@
-# Learning maths
+# Table of contents
 
 * [Introduction](README.md)
 
 ## Tools
-* [LaTex](LaTex)
-    * [Cheatsheet](LaTex/cheatsheet.md)
+
+* [LaTex](tools/latex/README.md)
+  * [Cheatsheet](tools/latex/cheatsheet.md)
