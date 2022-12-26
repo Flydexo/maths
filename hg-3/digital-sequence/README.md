@@ -134,5 +134,5 @@ $$\lim_{n\to+\infty}u_n=-\infty$$
 ### Note
 Some sequences do not have limits. In this case they diverge.
 Let the sequence $(u_n)$ defined by $u_n=(-1)^n$
-![graph representation for $(u_n)$ defined by $u_n=(-1)^n$](assets/screenshot1.png)
+![graph representation for $(u_n)$ defined by $u_n=(-1)^n$](assets/screenshot1.PNG)
 
