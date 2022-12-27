@@ -25,7 +25,9 @@ To demonstrate that a sequence $(u_n)$ is arithmetic, we can search to prove tha
 Let $(u_n)$ an arithmetic sequence of common difference $r$
 
 > For all $n\in\N,u_n=u_0+r\times n$
+> 
 > For all $n\in\N,u_n=u_1+r\times (n-1)$
+> 
 > For all $n\in\N,\space p\in\N\space u_n=u_p+r\times (n-p)$
 
 ### Graphical reference
@@ -44,10 +46,12 @@ If terms aren't null, we can prove that $\frac{u_{n+1}}{u_n} = q$ where $q$ is c
 Let $(u_n)$ a geometrical sequence of common ration $q$.
 
 > For all $n\in\N, u_n = u_0\times{q^n}$
-> For all $n\in\N, u_{n-1} = u_0\times{q^{n-1}}$
+> 
+> For all $n\in\N, u_n = u_1\times{q^{n-1}}$
+> 
 > For all $n\in\N,\space p\in\N\space u_n=u_p\times q^{n-p}$
 
-### Graphical reference
+## Graphical reference
 Exponential
 
 # Calulus of sums
@@ -64,6 +68,7 @@ $$S = \frac{n(n+1)}{2}$$
 
 ## Property: Sum if n first powers
 > For all real $q\ne1$ and for all integer $n\ge1$, we have:
+> 
 > $q^0+q^1+q^2+...+q^n=\Large\frac{1-q^{n+1}}{1-q}$
 
 ### Demonstration

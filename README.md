@@ -15,3 +15,4 @@ This repo's goal is to register all my work to learn maths at a sufficient level
 * [Digital sequence](hg-3/digital-sequence)
     * [Warm up](hg-3/digital-sequence/warm-up.md)
     * [Exercices](hg-3/digital-sequence/exercises.md)
+    * [Points of failure](hg-3/digital-sequence/points-of-failure.md)
