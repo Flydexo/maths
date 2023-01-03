@@ -91,7 +91,7 @@ Because $q\ne1$, we have $S=\Large\frac{1-q^{n+1}}{1-q}$
 * As with function if we replace $\ge, \le$ with $<, >$ we talk about **srictly increasing**, **strictly decreasing**, and **strictly monotone**.
 
 ## Propery: Study of the sign of $u_{n+1} - u_n$
-> Let $(u_n) a sequence:$
+> Let $(u_n)$ a sequence:
 > - if $u_{n+1}-u_n > 0$, then the sequence is strictly increasing
 > - if $u_{n+1}-u_n < 0$, then the sequence is strictly decreasing
 

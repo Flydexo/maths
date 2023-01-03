@@ -11,7 +11,7 @@
 - [x] Page 60                   
 - [x] Page 61    
 - [x] Page 62           
-- [ ] Page 63            
+- [x] Page 63            
 ### Application exercises
 - [ ] 34-36 page 64
 - [ ] 40-42 page 64
@@ -276,3 +276,11 @@ $$S = 51\times\frac{-142}{2} = -3,621$$
 $$S = 20\times\frac{-49}{2} = -490$$
 3. Guess the sum of $u_{20}+...u_{50}$
 $$-3,621 + 490 = -3131$$
+
+---
+
+### 8 Sequence variations
+
+Study the variations of the sequence $(u_n)$ for $n \in \N$:
+
+a) $u_n = n^2 + n$
