@@ -1,12 +1,12 @@
 # Generalities on sequences
 
 ## Definiton
-> sequence is a function $u$ defined on $\N$ or $\{n\in\N, n\ge{n_0}\}$ where $n_0\in\N$ fixed. For all unsigned integer $n$ associates a real $u(n)$ noted $u_n$
+> sequence is a function $u$ defined on $\mathbb{N}$ or $\{n\in\mathbb{N}, n\ge{n_0}\}$ where $n_0\in\mathbb{N}$ fixed. For all unsigned integer $n$ associates a real $u(n)$ noted $u_n$
 
 ## Notation
-A sequence function $\N$ describes a n-step as $u_n$
+A sequence function $\mathbb{N}$ describes a n-step as $u_n$
 ### Example
-$(u_n)$ defined $\forall n \in\N$ by $u_n=n^2-1$
+$(u_n)$ defined $\forall n \in\mathbb{N}$ by $u_n=n^2-1$
 
 ### Note
 When $u_n$ is expressed based on $n$ we can calculate by replacing with the rank. Is is called *defined by an explicit form*.
@@ -14,28 +14,28 @@ When $u_n$ is expressed based on $n$ we can calculate by replacing with the rank
 ## Defintion, defined by recurrence
 > Relation allowing to calculate a term based on previous term(s)
 ### Example
-$$(u_n)\space u_0=-6 \space \forall n \in \N \space u_{n+1}=3u_n+15$$
+$$(u_n)\space u_0=-6 \space \forall n \in \mathbb{N} \space u_{n+1}=3u_n+15$$
 
 # Arithmetic sequence
 ## Definition
-> A sequence $(u_n)$ is arithmetic if a real $r$ exists, called common difference, such as for all $n\in\N$ we have $u_{n+1}=u_n+r$
+> A sequence $(u_n)$ is arithmetic if a real $r$ exists, called common difference, such as for all $n\in\mathbb{N}$ we have $u_{n+1}=u_n+r$
 ## Note
-To demonstrate that a sequence $(u_n)$ is arithmetic, we can search to prove that for all $n\in\N$, $u_{n+1}-u_n = r$ where $r$ is a constant.
+To demonstrate that a sequence $(u_n)$ is arithmetic, we can search to prove that for all $n\in\mathbb{N}$, $u_{n+1}-u_n = r$ where $r$ is a constant.
 ## Property: Expression of the general term
 Let $(u_n)$ an arithmetic sequence of common difference $r$
 
-> For all $n\in\N,u_n=u_0+r\times n$
+> For all $n\in\mathbb{N},u_n=u_0+r\times n$
 > 
-> For all $n\in\N,u_n=u_1+r\times (n-1)$
+> For all $n\in\mathbb{N},u_n=u_1+r\times (n-1)$
 > 
-> For all $n\in\N,\space p\in\N\space u_n=u_p+r\times (n-p)$
+> For all $n\in\mathbb{N},\space p\in\mathbb{N}\space u_n=u_p+r\times (n-p)$
 
 ### Graphical reference
 > Points of graphical representation are placed on the line $y=r\times x + u_0$
 
 # Geometrical sequence
 ## Definition
-> A sequence $(u_n)$ is geometric if a real $q$ exists called common ratio, such as for all $n\in\N$ we have $u_{n+1}=q\times u_n$
+> A sequence $(u_n)$ is geometric if a real $q$ exists called common ratio, such as for all $n\in\mathbb{N}$ we have $u_{n+1}=q\times u_n$
 
 ## Note
 * To demonstrate that a sequence $(u_n)$ is geometric, we need to prove that $u_{n+1}=q\times u_n$
@@ -45,11 +45,11 @@ If terms aren't null, we can prove that $\frac{u_{n+1}}{u_n} = q$ where $q$ is c
 ## Property: Defintion in general terms
 Let $(u_n)$ a geometrical sequence of common ration $q$.
 
-> For all $n\in\N, u_n = u_0\times{q^n}$
+> For all $n\in\mathbb{N}, u_n = u_0\times{q^n}$
 > 
-> For all $n\in\N, u_n = u_1\times{q^{n-1}}$
+> For all $n\in\mathbb{N}, u_n = u_1\times{q^{n-1}}$
 > 
-> For all $n\in\N,\space p\in\N\space u_n=u_p\times q^{n-p}$
+> For all $n\in\mathbb{N},\space p\in\mathbb{N}\space u_n=u_p\times q^{n-p}$
 
 ## Graphical reference
 Exponential
@@ -96,7 +96,7 @@ Because $q\ne1$, we have $S=\Large\frac{1-q^{n+1}}{1-q}$
 > - if $u_{n+1}-u_n < 0$, then the sequence is strictly decreasing
 
 ### Example
-The sequence $(u_n), u_0=5,\forall n \in \N,u_{n+1}=u_n+n^2+1$ is strictly increasing because $u_{n+1}-u_n=n^2+1$ and $n^2+1 > 0$.
+The sequence $(u_n), u_0=5,\forall n \in \mathbb{N},u_{n+1}=u_n+n^2+1$ is strictly increasing because $u_{n+1}-u_n=n^2+1$ and $n^2+1 > 0$.
 
 ## Property: Comparison between $\Large\frac{u_{b+1}}{u_n}$ and $1$
 > Let $(u_n)$ a sequence of which all terms are strictly positives

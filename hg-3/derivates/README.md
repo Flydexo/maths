@@ -2,7 +2,7 @@
 ## a) Variation rate
 $$\frac{f(b) - f(a)}{b-a}$$
 $$\frac{\Delta{f}}{\Delta{x}}(a;b)$$
-## b) Derivated number of a function in a real $\R$
+## b) Derivated number of a function in a real $\mathbb{R}$
 f is derivable only if:
 $$f'(a)=\lim_{h\to0}{\frac{f(a+h)-f(a)}{h}}$$
 ## c) Tangent
@@ -11,7 +11,7 @@ Equation:
 $$y=f'(a)(x-a)+f(a)$$
 # 2. Derivated functions
 ## a) On the $I$ interval
-A function is derivable on $I$ if derivable for every $\R \in I$. Derivated function of $f(x)$ is noted $f'(x)$.
+A function is derivable on $I$ if derivable for every $\mathbb{R}\in I$. Derivated function of $f(x)$ is noted $f'(x)$.
 ## b) Reference functions
 |$f(x)=C$|$f'(x) = 0$|
 |---|---|

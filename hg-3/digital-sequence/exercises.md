@@ -37,7 +37,7 @@
 # Exercises
 ## Page 56
 ### 1. Calculate terms defined by an explicit formula
-1. Calculate 3 first terms of the sequence $(u_n)$ defined $\forall n \in \N$ by $u_n = 2n +1$
+1. Calculate 3 first terms of the sequence $(u_n)$ defined $\forall n \in \mathbb{N}$ by $u_n = 2n +1$
 
 > 1, 3, 5
 
@@ -180,7 +180,7 @@ Let $(u_n)$ be a geometrical sequence of common ratio $2$ such as $u_2=\Large\fr
 
 1. Give the expression $u_n$ depending on $n$
 - a. $u_n$
-$$\forall n \in \N, \forall p \in \N \space u_{n+p}=u_p\times{q^{n-p}}$$
+$$\forall n \in \mathbb{N}, \forall p \in \mathbb{N} \space u_{n+p}=u_p\times{q^{n-p}}$$
 $$u_n=\frac{1}{4}\times{2^{n-2}}$$
 - b. Value of $u_6$
 $$u_6=\frac{1}{4}\times{2^4} = 4$$
@@ -281,6 +281,6 @@ $$-3,621 + 490 = -3131$$
 
 ### 8 Sequence variations
 
-Study the variations of the sequence $(u_n)$ for $n \in \N$:
+Study the variations of the sequence $(u_n)$ for $n \in \mathbb{N}$:
 
 a) $u_n = n^2 + n$
