@@ -12,10 +12,10 @@ Exponential fonction noted $exp$
 
 ### Sum:
 
-$\forall\space\R$ $a$ and $b$
+$\forall\space\mathbb{R}$ $a$ and $b$
 $$exp(a+b) = exp(a) + exp(b)$$
 
 ### Opposed, difference and power
 
-- $a \in \R \space exp(-a) = \frac{1}{exp(a)}$
-- $a \in \R$ and $b \in \R \space exp(a-b) = \frac{exp(a)}{exp(b)}$
+- $a \in \mathbb{R} \space exp(-a) = \frac{1}{exp(a)}$
+- $a \in \mathbb{R}$ and $b \in \mathbb{R} \space exp(a-b) = \frac{exp(a)}{exp(b)}$
