@@ -1,1 +1,0 @@
-pub const QUERY_NAME: &str = "new-chapter";
