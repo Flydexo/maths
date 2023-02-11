@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage{mathbbol}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath}
+
+\graphicspath{ {./images/} }
+\renewcommand{\arraystretch}{2.5}
+\newcommand{\definition}[1]{\paragraph*{\underline{Definition}: #1}}
+\newcommand{\property}[1]{\paragraph*{\underline{Property}: #1}}
+\renewcommand{\vec}[1]{\overrightarrow{#1}}
+\newcommand{\scmul}[2]{\vec{#1} \cdot \vec{#2}}
+\newcommand{\twodivec}[3]{\vec{#1} \begin{pmatrix}#2 \\ #3\end{pmatrix}}
+
+\title{Vectors}
+\author{Flydexo}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Scalar product, colinearity and orthogonality of vectors}
+\paragraph*{\underline{Definition}: Angle of 2 vectors}
+let $\vec{u}$ and $\vec{v}$ two vectors, we note $\angle(\vec{u},\vec{v})$ the geometrical angle $\angle{ABC}$ where $\vec{u} = \vec{AB}$ and $\vec{v} = \vec{AC}$
+\paragraph*{\underline{Definition}: With the cosinus}
+Scalar product is the $\mathbb{R}$ defined by:
+$$\vec{u}\cdot\vec{v} = ||\vec{u}|| \times ||\vec{v}|| \times \cos{(\angle{\vec{u}, \vec{v}})}$$ If $\vec{v} = \vec{0}$ or $\vec{u} = \vec{0}$ so $\vec{u} \cdot \vec{v} = 0$
+\paragraph*{\underline{Property}: Symmetry}
+$\vec{u} \cdot \vec{v} = \vec{v} \cdot \vec{u}$
+\paragraph*{\underline{Property}: Case of colinearity}
+\begin{itemize}
+    \item Same sense $||\vec{u}|| \times ||\vec{v}||$
+    \item Opposite sense $-||\vec{u}|| \times ||\vec{v}||$
+\end{itemize}
+\paragraph*{\underline{Property}: With orthogonal projection}
+let A, B, and C be three points and H orthogonal projection of C on (AB). \begin{itemize}
+    \item Same sense $\vec{AB} \cdot \vec{AC} = AB \times AH$
+    \item Opposite sense$\vec{AB} \cdot \vec{AC} = -AB \times AH$
+\end{itemize}
+\definition*{\underline{Definition}: Orthogonality}
+$\vec{u}$ and $\vec{v}$ are orthogonal if: $$\vec{u} \cdot \vec{v} = 0$$
+\paragraph*{\underline{Property}: Perpendicular lines}
+Perpendicular only if underlying vectors are orthogonal.
+\section{Definitions and properties}
+\property{Scalar product with norms}
+$$\vec{u} \cdot \vec{v} = \frac{1}{2}(||\vec{u}||^2 + ||\vec{v}||^2 - ||\vec{u} - \vec{v}||^2)$$
+\property{Scalar product with coordinates}
+$\vec{u}\begin{pmatrix} x \\ y \end{pmatrix}$ and $\vec{v}\begin{pmatrix} x' \\ y' \end{pmatrix}$ so $\scmul{u}{v} = xx' + yy'$
+\property{Orthogonality conditions}
+$\twodivec{u}{x}{y}$ and $\twodivec{v}{x'}{y'}$ only if $\scmul{u}{v} = 0$
+\property{Bilinearity, scalar square, sum's norm}
+Let $\vec{u}$, $\vec{v}$ and $\vec{w}$ be 3 vectors and $k$ a real.
+\begin{enumerate}
+    \item $\vec{u} \cdot (\vec{v} + \vec{w}) = \scmul{u}{v} + \scmul{u}{w}$
+    \item $\vec{u} \cdot (k\vec{v}) = k(\scmul{u}{v})$
+    \item $\scmul{u}{u} = (\vec{u})^2 = ||\vec{u}||^2$
+    \item $||\vec{u} + \vec{v}||^2 = ||\vec{u}||^2 + ||\vec{v}||^2 + 2\vec{u} \cdot \vec{v}$
+\end{enumerate}
+\property{Al-Kashi's formula}
+In a triangle ABC:
+$$BC^2 = AB^2 - 2 \times AB \times AC \times \cos{(\angle{BAC})}$$
+\section{Study of a set of points}
+\property{Transformation of an expression}
+Two points A, B and their middle I, we have: $\scmul{MA}{MB} = MI^2 - \frac{1}{4}AB^2$
+\property{Circle}
+Two points A and B, the set of M points where $\scmul{MA}{MB} = 0$ is the circle of diameter [AB]
+\property{Circle and rectangle triangle}
+Triangle ABC rectangle in C only if C belongs to the [AB] diameter circle. (different from A et B)
+\end{document}
