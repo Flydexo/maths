@@ -29,3 +29,6 @@ This repo's goal is to register all my work to learn maths at a sufficient level
   - [Points of failure](hg-3/trigonometrical-functions/points-of-failure.md)
 - [Vectors](hg-3/vectors/readme.pdf)
   - [Exercises](hg-3/vectors/exercises.pdf)
+- [Spotted Geometry](hg-3/spotted-geometry/readme.pdf)
+  - [Warm-up](hg-3/spotted-geometry/warm-up.pdf)
+  - [Exercises](hg-3/spotted-geometry/exercises.pdf)

@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{mathbbol}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath}
+
+\graphicspath{ {./images/} }
+\renewcommand{\arraystretch}{2.5}
+\newcommand{\definition}[1]{\paragraph*{\underline{Definition}: #1}}
+\newcommand{\property}[1]{\paragraph*{\underline{Property}: #1}}
+\renewcommand{\vec}[1]{\overrightarrow{#1}}
+\newcommand{\scmul}[2]{\vec{#1} \cdot \vec{#2}}
+\newcommand{\twodivec}[3]{\vec{#1} \begin{pmatrix}#2 \\ #3\end{pmatrix}}
+
+\title{Spotted Geometry}
+\author{Flydexo}
+
+\begin{document}
+\maketitle
+\section{Normal vector to a line}
+\definition{Normal vector}
+Vector $\vec{v}$ is normal to d if orthogonal to any $\vec{u}$ director of line d.
+\property{Normal vector and equation}
+The vector $\twodivec{n}{a}{b}$ is normal to a line d where its cartesian equation is:$$ax + by + c = 0$$
+\property{Cartesian equation of a line}
+A line which admits a normal vector $\twodivec{n}{a}{b}$ has a cartesian equation of the form:$$ax + by + c = 0$$
+\section{Equation of a circle}
+\property{Cartesian Equation of a Circle}
+A circle of center $A(a, b)$ and radius $r$ has the form $$(x-a)^2+(y-b)^2 = r^2$$
+\end{document}
