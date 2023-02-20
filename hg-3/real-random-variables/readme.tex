@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage{mathbbol}
+\usepackage{graphicx}
+
+\graphicspath{ {./images/} }
+\renewcommand{\arraystretch}{2.5}
+\newcommand{\definition}[1]{\paragraph*{\underline{Definition}: #1}}
+\newcommand{\property}[1]{\paragraph*{\underline{Property}: #1}}
+\renewcommand{\vec}[1]{\overrightarrow{#1}}
+\newcommand{\scmul}[2]{\vec{#1} \cdot \vec{#2}}
+\newcommand{\twodivec}[3]{\vec{#1} \begin{pmatrix}#2 \\ #3\end{pmatrix}}
+
+\title{Real Random Variables}
+\author{Flydexo}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Real random variables}
+We consider a random experience of universe $\Omega = \{e_1;e_2;e_3;...;e_r\}$ is finite and a law of probability $p$ over $\Omega$
+\definition{Real random variable (discrete)}
+An RRV $X$ over $\Omega$ is a function that associates a real for each issue of $\Omega$. We note $\{X=a\}$ the event $X$ taking the value $a$ and $p(X=a)$ its probability.
+\definition{}
+Let X a RRV over $\Omega$ with the values $x_1,x_2,...,x_n$. When each value $x_i$, we associate the probability $p_i = p(X=x_i)$ we define the law of probability of X.
+\section{Expectation - Variance - Standard gap}
+\subsection{Definitions}
+\definition{Expectation}
+Expectation of X is the Real noted $E(X)$ defined by: $$E(X) = p_1x_1+p_2x_2+...+p_nx_n$$
+\definition{Variance}
+Variance of X noted $V(X)$ defined by: $$V(X) = p_1(x_1-E(X))^2 + p_2(x_2-E(X))^2 + ... + p_n(x_n-E(X))^2$$
+\definition{Standard gap}
+The standard gap of X is the real noted $\sigma(X)$ defined by: $$\sigma(X) = \sqrt{V(X)}$$
+\subsection{Properties of the indicators}
+\property{Formula of König-Huygens}
+$$V(X) = p_1(x_1)^2 + p_2(x_2)^2 + ... + p_n(x_n)^2 - (E(X))^2$$
+\definition{Random variable aX+b}
+For every real a and b, we can associate a new random variable by associating each issue giving the value $x_i$, the real $ax_i+b$. Named $aX+b$
+\property{E(aX+b) and V(aX+b)}
+Let a and b be two reals. We have:
+\begin{itemize}
+    \item $E(aX+b) = aE(X)+b$
+    \item $V(aX+b) = a^2V(X)$
+    \item $\sigma(aX+b) = |a|\sigma(X)$
+\end{itemize}
+\property{Expectation and simulation}
+With a sufficiently big sample of values taken by a random variable, the average of its values is close to the value of the expectation of this random variable.
+\end{document}
