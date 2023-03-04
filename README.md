@@ -33,3 +33,7 @@ This repo's goal is to register all my work to learn maths at a sufficient level
   - [Exercises](hg-3/independent-and-conditional-probabilities/exercises.pdf)
 - [Real random variables](hg-3/real-random-variables/readme.pdf)
   - [Exercises](hg-3/real-random-variables/exercises.pdf)
+
+## The high school 4th Year
+
+- [Sequence and recurrence](hg-4/sequence-and-recurrence)
